@@ -1,0 +1,28 @@
+.menu-bar {
+    background: rgb(0, 0, 0);/*メニューバーの背景色*/
+    padding: 5px 0;/*上下の余白*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;/*上と左に合わせて、きれいに表示*/
+
+
+}
+.menu-bar ul {
+    list-style: none;/*リストマーカー(・)を消す*/
+    margin: 0;
+    padding: 0;/*余白を消す*/
+    display: flex;/*横並びにする*/
+    justify-content: left;/*リスト全体を左揃え*/
+}
+.menu-bar li {
+    margin: 0 20px;/*各メニュー項目の余白*/
+}
+.menu-bar a {
+    color: #ffffff;/*各メニューの文字色*/
+    text-decoration: none;/*各メニューの下線を消す*
+    font-size: 16px;/*フォントサイズ*/
+}
+.menu-bar a:hover {
+    text-decoration: underline;/*カーソルを乗せたとき下線を表示*/
+}
